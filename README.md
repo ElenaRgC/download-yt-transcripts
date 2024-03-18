@@ -16,3 +16,8 @@ Downlaod transcripts for entire youtube channels, might take some minutes depend
 - Paste channel id into file `download-transcripts.py`
 - Change the language tag in `languages=['en']` if you need to
 - Run script `py download-transcripts.py`, all transcripts will be appended to a new file
+
+## Ids
+
+- UCfQgsKhHjSyRLOp9mnffqVg = Renaissance Perioditization
+- UCRVjl9pOdgYAF3HBFyj36mg = cryptospain

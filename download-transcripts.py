@@ -27,14 +27,14 @@ def get_video_ids(channel_id):
     return video_ids
 
 # Replace with the channel ID you're interested in
-channel_id = 'UC2D2CMWXMOVWx7giW1n3LIg'
+channel_id = 'UCRVjl9pOdgYAF3HBFyj36mg'
 video_ids = get_video_ids(channel_id)
 
 # Open a single file with the channel ID as the filename
 with open(f"{channel_id}.txt", 'a') as file:
     for video_id in video_ids:
         try:
-            transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
+            transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['es'])
             # Write a header for the transcript
             file.write(f"Transcript for Video ID: {video_id}\n")
             # Append the transcript to the file
